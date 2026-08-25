@@ -139,6 +139,3 @@ Always use `encodeURIComponent()` for song queries. Spaces need to be URL-encode
 - `endEstimated: true` means the clip is the final timestamp in a source video, so the endpoint uses the ten-minute cap instead of a following timestamp.
 - Please link back to [Yetour](https://yetour.xyz) when using the API in a public project.
 
-## Development
-
-This repository is a Cloudflare Worker. Deployment configuration is in [`wrangler.jsonc`](./wrangler.jsonc).
